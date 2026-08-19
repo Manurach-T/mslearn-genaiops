@@ -22,7 +22,7 @@ agent = project_client.agents.create_version(
     agent_name=os.environ["AGENT_NAME"],
     definition=PromptAgentDefinition(
         # model=os.getenv("MODEL_NAME", "gpt-5.1"),  # Use Global Standard model
-        model="gpt-4o-mini",  # Use Global Standard model
+        model="gpt-4o",  # Use Global Standard model
         instructions=instructions,
     ),
 )
